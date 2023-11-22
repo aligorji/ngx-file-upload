@@ -1,0 +1,27 @@
+goto root project (command line)
+
+for change:
+> npm run build:lib
+
+for run demo:
+> ng serve
+
+for build prod:
+> npm run build:lib:prod
+
+for publish npm:
+> cd dist/ngx-fomantic-ui
+
+> npm init --scope=aligorji
+
+Remove "scripts" property in 'dist/ngx-fomantic-ui/package.json'
+
+===========================================================
+@aligorji/ngx-fomantic-ui
+1.0.0
+https://github.com/aligorji/ngx-fomantic-ui
+===========================================================
+
+npm login
+
+npm publish --access=public
